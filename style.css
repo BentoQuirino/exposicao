@@ -1,0 +1,54 @@
+body,h1,h2,h3,h4,h5 {
+    font-family: "Raleway", sans-serif; 
+    margin-top: 200px;
+    background-color: rgb(230, 230, 230);
+    
+}
+
+
+.w3-quarter img{
+    animation-duration: 3s;
+    animation-name: slidein;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.w3-quarter img:hover{
+  transition-property: font-size;
+  transform: scale(1.08);
+  border: 5px solid #1c3359;
+  border-radius: 20px;
+}
+
+
+.sub{
+    font-size: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.header{
+    padding: 0px;
+    margin-top: -25vh;
+    background-color: #1c3359;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      opacity: 0;
+      border-radius: 500px;
+    }
+  
+    to {
+      opacity: 1;
+      
+    }
+  }
